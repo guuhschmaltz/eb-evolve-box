@@ -1,2 +1,2 @@
 # eb-evolve-box
- Repository to create a personal development platform.
+ Repository to create a personal development platform. =)
