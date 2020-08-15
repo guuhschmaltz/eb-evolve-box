@@ -12,6 +12,7 @@ header .header-content {
     align-items: center;
     flex: 1 1 auto;
     flex-wrap: nowrap;
+    position: relative;
 }
 
 header .header-content nav{    
