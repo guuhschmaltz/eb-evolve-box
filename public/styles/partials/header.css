@@ -1,19 +1,41 @@
-.page-header{
-    background-color: var(--color-primary);
-    display: flex;
-    flex-direction: column;
+#page-landing header{
+    background: var(--color-primary-lighter);
+    width: 100vw;
 }
 
-.page-header .header-content strong{
-    font: 700 3.6rem Gugi;
-    line-height: 3.8rem;
-    color: var(--color-title-in-primary);
-    margin-top: 2.4rem;
+header .header-content {
+    width: 80%;
+    max-width: 940px;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
 }
 
-.page-header .header-content p{
-    max-width: 30rem;
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    color: var(--color-title-in-primary);
+header .header-content nav{    
+    position: absolute;
+    top: 0;
+    text-align: right;
+    right: 0;
+    margin-top:15px;    
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+header nav ul li a{
+    vertical-align: center;
+    transition: 0.2s;
+    text-decoration: none;
+    color: var(--color-text-base);
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    color: var(--color-line-in-white);
 }
