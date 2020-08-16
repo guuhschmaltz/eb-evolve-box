@@ -1,23 +1,24 @@
 :root{
-    --color-background: #1DB5C4;
-    --color-primary-lighter: #b7dbeb;
-    --color-primary-light: #6bb7ea;
-    --color-primary: #57b1e5;
-    --color-prymary-dark: #4db6d6;
-    --color-prymary-darker: #428fc2;
+    --color-background: #1dc471;
+    --color-footer: #1dc47175;
+    --color-primary-lighter: #b7ebcf;
+    --color-primary-light: #6beab9;
+    --color-primary: #57e5af;
+    --color-prymary-dark: #4dd6bf;
+    --color-prymary-darker: #42c29c;
     --color-secondary: #d33f04;
     --color-secondary-dark: #993101;
     --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #c2e9ff;
-    --color-text-title: #26474d;
-    --color-text-complement: #98a2a6;
-    --color-text-base: #617680;
-    --color-line-in-white: #e6ebf0;
-    --color-input-background: #f8fafc;
+    --color-text-in-primary: #c2ffe3;
+    --color-text-title: #264d38;
+    --color-text-complement: #98a69f;
+    --color-text-base: #61806e;
+    --color-line-in-white: #e6f0eb;
+    --color-input-background: #f8fcfa;
     --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
-    --color-box-footer: #fafbfc;
-    --color-small-info: #c1dcdb;
+    --color-box-footer: #fafcfb;
+    --color-small-info: #c1dccf;
 
     /* tamanho da fonte padrão: 16px / 100% / 1 rem */
     font-size: 60%; /* controle das medidas REM */
