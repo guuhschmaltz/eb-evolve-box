@@ -1,24 +1,24 @@
 :root{
-    --color-background: #1dc471;
-    --color-footer: #1dc47175;
-    --color-primary-lighter: #b7ebcf;
-    --color-primary-light: #6beab9;
-    --color-primary: #57e5af;
-    --color-prymary-dark: #4dd6bf;
-    --color-prymary-darker: #42c29c;
-    --color-secondary: #d33f04;
-    --color-secondary-dark: #993101;
+    --color-background: #67499e;
+    --color-footer: #651dc475;
+    --color-primary-lighter: #c2b7eb;
+    --color-primary-light: #6b78ea;
+    --color-primary: #576ce5;
+    --color-prymary-dark: #4d7dd6;
+    --color-prymary-darker: #4260c2;
+    --color-secondary: #fbff2c;
+    --color-secondary-dark: #d4d100;
     --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #c2ffe3;
-    --color-text-title: #264d38;
-    --color-text-complement: #98a69f;
-    --color-text-base: #61806e;
-    --color-line-in-white: #e6f0eb;
-    --color-input-background: #f8fcfa;
+    --color-text-in-primary: #c2daff;
+    --color-text-title: #26304d;
+    --color-text-complement: #989ba6;
+    --color-text-base: #616d80;
+    --color-line-in-white: #e6e9f0;
+    --color-input-background: #f8fafc;
     --color-button-text: #FFFFFF;
     --color-box-base: #FFFFFF;
-    --color-box-footer: #fafcfb;
-    --color-small-info: #c1dccf;
+    --color-box-footer: #fafbfc;
+    --color-small-info: #c1c3dc;
 
     /* tamanho da fonte padrão: 16px / 100% / 1 rem */
     font-size: 60%; /* controle das medidas REM */
@@ -47,11 +47,11 @@ textarea{
     font-size: 1.6rem;
     font-family: Poppins;
     color: var(--color-text-base);
+    border-radius: 5px;
 }
 
 #container{
-    width: 90vw;
-    max-width: 1100px;
+    width: 100vw;
 }
 
 @media(min-width:1100px){
