@@ -1,0 +1,92 @@
+#page-dashboard #container{
+    width: 100vw;
+    height: 100%;
+}
+
+#page-dashboard #container #dashboard{
+    margin: 0;
+    display: grid;
+    grid-gap: 0.8rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr 1fr 3fr;
+    grid-template-areas: "dashboard-bg"
+                         "goals-in-progress"
+                         "achievements"
+                         "goals-finished"
+                         "planning";
+
+
+}
+
+ #dashboard-bg{
+    grid-area: dashboard-bg;
+    background: chartreuse;
+}
+ #goals-in-progress{
+    grid-area: goals-in-progress;
+    background: chocolate;
+}
+ #achievements{
+    grid-area: achievements;
+        background: crimson;
+}
+ #goals-finished{
+    grid-area: goals-finished;
+        background: darkgreen;
+}
+ #planning{
+    grid-area: planning;
+        background: darkmagenta;
+}
+
+@media(min-width:1100px){
+    #page-dashboard #container{
+        width: 100vw;
+        height: 100%;
+    }
+
+    #page-dashboard #container #dashboard{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 4fr 4fr 1fr;;
+        grid-template-areas: "dashboard-bg dashboard-bg"
+                            "goals-in-progress achievements"
+                            "goals-in-progress goals-finished"
+                            "planning planning";
+        grid-gap: 1.6rem;
+    }
+
+    #dashboard-bg{
+        grid-area: dashboard-bg;
+        background: chartreuse;
+    }
+     #goals-in-progress{
+        grid-area: goals-in-progress;
+        background: chocolate;
+    }
+     #achievements{
+        grid-area: achievements;
+        background: crimson;
+    }
+     #goals-finished{
+        grid-area: goals-finished;
+        background: darkgreen;
+    }
+     #planning{
+        grid-area: planning;
+        background: darkmagenta;
+    }
+
+    #page-signup .header-content{
+        margin-bottom: 2.2rem;
+    }
+
+    #page-signup form{
+        padding: 0 2.4rem;
+        border: none;
+        grid-area: cadastro;
+        
+    }
+}   
+

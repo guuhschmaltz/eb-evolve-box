@@ -26,6 +26,10 @@ header .header-content nav{
     top: 3.2rem;
 }
 
+header .top-bar-container > img{
+    height: 8.2rem;
+}
+
 header nav ul{
     list-style: none;
 }
