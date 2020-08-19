@@ -14,6 +14,7 @@ header .header-content {
     justify-content: space-between;
     flex: 1 1 auto;
     flex-wrap: nowrap;
+    text-transform: uppercase;
 }
 
 header .header-content h1{
@@ -68,6 +69,7 @@ header nav ul li a:hover{
         justify-content: space-between;
         flex: 1 1 auto;
         flex-wrap: nowrap;
+        text-transform: uppercase;
     }
 
     header .header-content h1{
