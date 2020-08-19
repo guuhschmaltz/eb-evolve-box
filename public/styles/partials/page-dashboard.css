@@ -54,42 +54,42 @@
                             "goals-in-progress goals-finished"
                             "goals-in-progress achievements"
                             "planning planning";
-        grid-gap: 1.6rem;
+    }
+
+    #page-dashboard #container main{
+        max-width: 940px;
+        width: 80vw;
+        margin: 0.8rem auto;
     }
     #dashboard-bg{
         grid-area: dashboard-bg;
         background: var(--color-box-base);
         padding: 2rem;
         border-radius: 5px;
-        margin: 1.8rem;
     }
      #goals-in-progress{
         grid-area: goals-in-progress;
         background: var(--color-box-base);
         padding: 2rem;
         border-radius: 5px;
-        margin: 1.8rem;
     }
      #achievements{
         grid-area: achievements;
         background: var(--color-box-base);
         padding: 2rem;
         border-radius: 5px;
-        margin: 1.8rem;
     }
      #goals-finished{
         grid-area: goals-finished;
         background: var(--color-box-base);
         padding: 2rem;
         border-radius: 5px;
-        margin: 1.8rem;
     }
      #planning{
         grid-area: planning;
         background: var(--color-box-base);
         padding: 2rem;
         border-radius: 5px;
-        margin: 1.8rem;
     }
 
     #page-signup .header-content{
