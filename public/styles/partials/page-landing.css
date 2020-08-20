@@ -19,6 +19,14 @@
     align-content: center;
     width: 100%;
 }
+#introduction .description, .image{
+    text-align:center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
 
 #introduction .image img{
     width: 50%;
@@ -37,10 +45,20 @@
     width: 100%;
 }
 
+#improving-everyday .description, .image{
+    text-align:center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+
 #improving-everyday .image img{
     width: 50%;
     display: block;
 }
+
+
 
 #community{
     display: block;
@@ -73,16 +91,17 @@
 
     #introduction{
         display: flex;
-        align-content: center;
-        
+        align-content: center;        
         width: 100%;
     }
 
-    #introduction .image, .description{
+    #introduction .image{
         display: flex;
         justify-content: center;
         width: 50%;
     }
+
+
 
     #introduction div img{
         width: 50%;
