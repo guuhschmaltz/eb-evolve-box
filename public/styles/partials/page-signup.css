@@ -68,12 +68,20 @@
     }
 
     #page-signup #container main{
-        margin: 0;
+        max-width: 940px;
+        width: 80vw;
+        margin: 0.8rem auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "cadastro imagem";
         grid-gap: 5px;
+    }
+
+    #page-dashboard #container main{
+        max-width: 940px;
+        width: 80vw;
+        margin: 0.8rem auto;
     }
 
     #page-signup .header-content{

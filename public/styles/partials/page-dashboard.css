@@ -39,6 +39,20 @@
     background: var(--color-box-base);
 }
 
+.goal-pb {
+    background-color: var(--color-secondary-dark);
+    border-radius: 13px;
+    padding: 3px;
+    margin: 1.2rem;
+  }
+  
+.goal-pb .progress {
+    background-color: var(--color-secondary);
+    width: 50%;
+    height: 1.2rem;
+    border-radius: 10px;
+  }
+
 @media(min-width:1100px){
     #page-dashboard #container{
         width: 100vw;
@@ -92,15 +106,18 @@
         border-radius: 5px;
     }
 
-    #page-signup .header-content{
-        margin-bottom: 2.2rem;
-    }
-
-    #page-signup form{
-        padding: 0 2.4rem;
-        border: none;
-        grid-area: cadastro;
-        
-    }
+    .goal-pb {
+        background-color: var(--color-secondary-dark);
+        border-radius: 13px;
+        padding: 3px;
+        margin: 1.2rem;
+      }
+      
+    .goal-pb .progress {
+        background-color: var(--color-secondary);
+        width: 50%;
+        height: 1.2rem;
+        border-radius: 10px;
+      }
 }   
 
