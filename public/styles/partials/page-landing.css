@@ -21,24 +21,20 @@
 
 #introduction{
     grid-area: introduction;
-    background: var(--color-box-base);
 }
 
- #description{
+#description{
     grid-area: description;
-    background: var(--color-box-base);
+
 }
 
- #improving-everyday{
+#improving-everyday{
     grid-area: improving-everyday;
-    background: var(--color-box-base);
 }
 
  #community{
     grid-area: community;
-    background: var(--color-box-base);
 }
-
 
 
 @media(min-width:1100px){
@@ -47,39 +43,84 @@
         height: 100%;
     }
     
-    #page-landing #container #landing-content{
-        margin: 0;
-        display: grid;
-        grid-gap: 0.8rem;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas: "introduction description"
-                             "introduction description"
-                             "improving-everyday improving-everyday"
-                             "community community";
+    #page-landing main{
+        width: 80vw;
+        max-width: 940px;
+        margin: 1.8rem auto;
+        color: white;
+    }
+    
+    #landing-content > div{
+        margin-bottom: 4rem;
+        padding: 1rem 0;
     }
 
-    #page-landing .header-content{
-        margin-bottom: 1.8rem;
-    }
-    
     #introduction{
-        grid-area: introduction;
-        background: var(--color-box-base);
+        display: flex;
+        align-content: center;
+        
+        width: 100%;
     }
-    
-     #description{
-        grid-area: description;
-        background: var(--color-box-base);
+
+    #introduction .image, .description{
+        display: flex;
+        justify-content: center;
+        width: 50%;
     }
-    
-     #improving-everyday{
-        grid-area: improving-everyday;
-        background: var(--color-box-base);
+
+    #introduction div img{
+        width: 50%;
+        display: inline-block;
     }
-    
-     #community{
-        grid-area: community;
-        background: var(--color-box-base);
+
+    #introduction .description{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
+
+    #description{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
+
+    #improving-everyday{
+        display: flex;
+        align-content: center;
+        
+        width: 100%;
+    }
+
+    #improving-everyday .description{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #improving-everyday .image, .description{
+        display: flex;
+        justify-content: center;
+        width: 50%;
+    }
+
+    #improving-everyday div img{
+        width: 50%;
+        display: inline-block;
+    }
+
+    #community{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #community button{
+        margin-top: 1.5rem;
+        padding: 0.8rem;
+    }
+}
