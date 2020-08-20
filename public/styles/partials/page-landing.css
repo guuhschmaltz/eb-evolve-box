@@ -3,39 +3,55 @@
     height: 100%;
 }
 
-#page-landing #container #landing-content{
-    margin: 0;
-    display: grid;
-    grid-gap: 0.8rem;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: "introduction"
-                         "description"
-                         "improving-everyday"
-                         "community";
+#page-landing main{
+    width: 80vw;
+    margin: 1.8rem auto;
+    color: white;
 }
 
-#page-landing .header-content{
-    margin-bottom: 1.8rem;
+#landing-content > div{
+    margin-bottom: 4rem;
+    padding: 1rem 0;
 }
 
 #introduction{
-    grid-area: introduction;
+    display: block;
+    align-content: center;
+    width: 100%;
+}
+
+#introduction .image img{
+    width: 50%;
+    display: block;
 }
 
 #description{
-    grid-area: description;
-
+    display: block;
+    align-items: center;
+    text-align: center;
 }
 
 #improving-everyday{
-    grid-area: improving-everyday;
+    display: block;
+    align-content: center;
+    width: 100%;
 }
 
- #community{
-    grid-area: community;
+#improving-everyday .image img{
+    width: 50%;
+    display: block;
 }
 
+#community{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+
+#community button{
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+}
 
 @media(min-width:1100px){
     #page-landing #container{
