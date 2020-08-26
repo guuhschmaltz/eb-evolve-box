@@ -18,7 +18,7 @@
 
 }
 
- #dashboard-bg{
+ #dashboard-title-bg{
     grid-area: dashboard-bg;
     background: var(--color-box-base);
 }
@@ -75,7 +75,7 @@
         width: 80vw;
         margin: 0.8rem auto;
     }
-    #dashboard-bg{
+    #dashboard-title-bg{
         grid-area: dashboard-bg;
         background: var(--color-box-base);
         padding: 2rem;
