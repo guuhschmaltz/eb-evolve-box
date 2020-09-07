@@ -31,6 +31,10 @@
     position: relative;
 }
 
+.input-block + .input-block {
+    margin-top: 2.2rem;
+}
+
 .input-block:focus-within::after,
 .textarea-block:focus-within::after {
     content: "";
